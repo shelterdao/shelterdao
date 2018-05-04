@@ -1,6 +1,6 @@
 {
-  "name": "nempay",
-  "app_id": "",
+  "name": "shelterDAO",
+  "app_id": "1380411942",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
