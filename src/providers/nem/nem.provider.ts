@@ -30,7 +30,7 @@ export class NemProvider {
     accountOwnedMosaicsService: AccountOwnedMosaicsService;
 
     constructor(private storage: Storage) {
-        NEMLibrary.bootstrap(NetworkTypes.TEST_NET);
+        NEMLibrary.bootstrap(NetworkTypes.MAIN_NET);
         this.accountHttp = new AccountHttp();
         this.mosaicHttp = new MosaicHttp();
         this.transactionHttp = new TransactionHttp();
